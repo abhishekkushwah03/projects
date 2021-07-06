@@ -1,0 +1,47 @@
+.btn btn-primary card-header{
+	background-color:transparent;
+}
+
+.card-header{
+	background-color:transparent;
+}
+
+body{
+	background-image:url("signup_background.jpg");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+}
+.card-header,.form-check-label{
+	color:white;
+	border-bottom: transparent;
+}
+.form-group{
+	padding: 20px 20px;
+}
+.form-check{
+	margin-left: 21px;
+}
+.card ,.forcolor{
+	background-color: transparent;
+	border: transparent;
+	font-weight: 500;
+    }
+.form-control,input{
+	border-bottom: 1px solid #ced4da;
+	border-radius: 0;
+	font-size: 17px;
+        outline: none;
+}
+h4{
+	margin-bottom: -10.5rem;
+}
+.btn-primary{
+	    border-radius: 6px;
+            
+}
+.card-header{
+	color:black !important;
+}
+
+
+

@@ -1,0 +1,347 @@
+html,body{
+    margin:0%;
+    scroll-behavior: smooth;
+    background-color: rgb(245 245 245);
+    overflow-x: hidden;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+a,li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    font-family: 'cabin',sans-serif;
+    /*background: url("logo's//EDU\ HUB.jpg") no-repeat;
+    background-size: 100%;*/
+    text-align: center;
+    color: darkslategrey;
+    float: left;
+    width: 17em;
+    height: 4em;
+    margin: 1em;
+}
+
+nav {
+    position: sticky;
+    top: 1;    
+    height: 6em;
+    box-shadow: 0.2rem 0.3rem 0.8rem grey;
+}
+
+nav ul {
+    margin: 1em 1em;
+    float: right;
+    box-shadow: 0.2rem 0.3rem 0.8rem grey;
+    height:67%;
+}
+
+#navitems :hover {
+    text-shadow: 5px 5px 5px grey;
+}
+
+nav  a li {
+    transition: all 0.5s;
+    display: inline-block;
+    font-family: 'Cabin', sans-serif;
+    padding:1em;
+    color: darkslategrey;
+    margin:0.2em;
+    cursor: pointer;
+}
+
+#courseli {
+    position: absolute;
+
+}
+
+#courseli li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategrey;
+    box-shadow: 0.2rem 0.3rem 0.8rem grey;
+    background-color: white;
+    padding: 1em;
+}
+
+
+.topback{
+    display: block;
+    background: url("../images/back1.jpg") no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+.firstQuote{
+    text-shadow: 5px 5px 5px grey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    color: darkslategrey;
+    width:50%;  
+    margin:20% 4%;
+}
+
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    margin: auto;
+    color: darkslategrey;
+    text-align: center;
+    width: 78%;
+}
+
+.incontain-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    width: 89vw;
+    height: 33rem;
+    margin-left: 20%;
+    margin-top:2em;
+    background: url("https://images.unsplash.com/photo-1557425955-df376b5903c8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+}
+
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 84vw;
+    margin:auto;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: darkslategrey;
+    padding:2em;
+}
+
+.textcont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 26rem;
+    margin:1em;
+}
+
+.image1{
+    background:url("https://images.unsplash.com/photo-1573496799822-b0557c9e2f41?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") no-repeat;
+}
+
+.image2{
+    background:url("https://images.unsplash.com/photo-1573497161079-f3fd25cc6b90?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80 no-repeat");
+}
+
+.image3{
+    background:url("https://images.unsplash.com/photo-1576834967753-ad2cf1cc8d19?ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8N3wxMjE0ODEwNnx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 no-repeat");
+    height:25em;
+}
+
+.img{
+    background-size: cover;
+    border-radius: 1em;
+    box-shadow: 0.6em 1em 0.9em lightgrey;
+}
+
+
+.offercourses{
+    display: flex;
+    flex-wrap: wrap;
+    height:auto;
+    margin-top: 1em;
+}
+
+.coursebox{
+    display: flex;  
+    justify-content: center;
+    width: 17%;
+    height: 16em;
+    margin-top: 6em;
+    margin-left: 2.5em;
+    border-radius: 18em;
+    box-shadow: 0.6em 1em 0.9em rgb(156, 151, 151);
+    transition : all 0.5s;
+}
+
+
+.courselink{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top : 13em;
+    height: fit-content;
+    border-radius:1em;
+}
+
+#cor1{
+    background:url("https://www.peak.edu.au/pwp/wp-content/uploads/2019/11/routine-icon-5.svg");
+    background-size: cover;
+}
+
+.offercourses :hover{
+    transform: translateY(-20%);
+}
+
+#cor2{
+    background:url("https://www.peak.edu.au/pwp/wp-content/uploads/2019/11/icon-holiday-course.svg");
+    background-size: cover;
+}
+#cor3{
+    background:url("https://www.peak.edu.au/pwp/wp-content/uploads/2019/11/icon-team-course.svg");
+    background-size: cover;
+}
+
+#cor1 :hover{
+    border-color:red;
+}
+
+caption{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.foot{
+    width:100vw;
+    height:auto;
+    margin-top:5%;
+    margin-left: -1.2%; 
+}
+
+footer{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    height:20rem;
+    background-color: rgb(237 237 237);
+    clip-path: polygon(32% 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.righttext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14%;
+    height: auto;
+}
+
+/* ----------- WHY EDU-HUB PAGE  CSS STARTS FROM ----------------  */
+
+.whyeduhub{
+    text-align: center;
+    width: 70%;
+    margin:11% 14%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    color: darkslategrey;
+    animation: slidein .5s ease-in 0s;
+}
+
+@keyframes slidein{
+    from{
+        opacity: 0;
+        margin:11% -17%;
+    }
+    to{
+        opacity: 1;
+        margin:11% 14%;
+    }
+}
+
+.eduadvantage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4em;
+    color: darkslategrey;
+    width: 83vw;
+    height: auto;
+    margin: auto;
+
+}
+
+.outerboxes {
+    width: 29%;
+    font-size: 19.2px;
+    margin-top: 4%;
+    height: 20em;
+}
+
+.innerbox{
+    width: 42%;
+    border-radius: 123px;
+    height: 41%;    
+    box-shadow: 5px 5px 5px grey;
+    margin:auto;
+    animation: jump 3s ease-in-out infinite;
+}
+
+@keyframes jump{
+    10% {
+        border:2px solid black;
+    }
+    50%{
+        border:3px solid pink;
+    }
+    100%{
+        border:3px solid red;
+    }
+}
+
+
+strong{
+    font-variant : petite-caps;
+}
+
+.midquote{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    width: 98.9vw;
+    margin-top: 7%;
+    height: 400px;
+
+    background:url('https://source.unsplash.com/1519x500/?education,student') no-repeat ;
+    background-size: 100%;
+    color: white;
+
+    font-family: 'Josefin Sans';
+}
+
+#medquo{
+    border-radius: 19px;
+    width: fit-content;
+    color: cadetblue;
+    padding: 1%;
+    opacity: 0.8;
+    /* width: 45%; */
+    background-color: rgb(245 245 245);
+}
+
+.contain {
+    width: 49%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    height: 20em;}
+
+
+#arrow {
+    width: 86%;
+    height: 300px;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    background-color: darkslategrey;
+    color: white;
+    padding: 9%;
+
+    font-family: 'Josefin Sans';
+
+}
+

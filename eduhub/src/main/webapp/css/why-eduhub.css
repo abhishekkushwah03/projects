@@ -1,0 +1,20 @@
+.contain input[type='text'],input[type='email']{
+    width: 24em;
+    padding: 4%;
+    font-size: 1em;
+    margin: 3%;  
+}
+
+.contain input[type='submit']{
+    margin: 4% 75%;
+    height: 3em;
+    width: 28%;
+    background: beige;
+    color: cadetblue;
+}
+
+form{
+    height: fit-content;
+    width: fit-content;
+    padding: 5%;
+}
